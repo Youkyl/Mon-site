@@ -21,3 +21,6 @@ form {
 body {
     background-color: antiquewhite;
 }
+@media only screen and (max-width: 768px) {
+    
+}
