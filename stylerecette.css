@@ -101,3 +101,7 @@ h1 {
 body {
     background-color: antiquewhite;
 }
+
+@media only screen and (max-width: 768px) {
+
+}
