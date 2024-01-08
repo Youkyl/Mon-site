@@ -1,4 +1,44 @@
 /* Body */
+
+.fa-bars {
+    position: absolute;
+    top: 20px;
+     right: 20px;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover {
+    color: #007bff;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.menu:hover ul {
+    display: block;
+}
+.menu ul li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+.menu ul li a {
+    color: black;
+}
+.menu ul li a:hover {
+    color: goldenrod;
+}
+
 body {
     background-color: antiquewhite;
 }
@@ -114,3 +154,4 @@ footer .contact {
         width: 390px;
     }
 }
+
