@@ -1,107 +1,45 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
-}
-h1 {
-    color: #333;
-}
-.ingredients, .preparation {
-    margin: 20px 0;
-}
-.ingredients h2, .preparation h2 {
-    color: #666;
-}
-.ingredients ul, .preparation ol {
-    margin-left: 20px;
-}
-
+/* Styles généraux */
 
 body {
     font-family: 'Times New Roman', Times, serif;
-}
-h1 {
     color: #333;
-}
-.ingredients, .preparation {
-    margin: 20px 0;
-}
-.ingredients h2, .preparation h2 {
-    color: #666;
-}
-.ingredients ul, .preparation ol {
-    margin-left: 20px;
-}
-.comments {
-    margin-top: 50px;
-}
-.comments input[type=text], .comments textarea {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-.comments input[type=submit] {
-    background-color: black;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-.comments input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-
-/*recette3*/
-
-
-body {
-    font-family: Arial, sans-serif;
-}
-h1 {
-    color: #333;
-}
-.recipe-ingredients, .recipe-preparation {
-    margin: 20px 0;
-}
-.recipe-ingredients h2, .recipe-preparation h2 {
-    color: #666;
-}
-.recipe-ingredients ul, .recipe-preparation ol {
-    margin-left: 20px;
-}
-.user-comments {
-    margin-top: 50px;
-}
-.user-comments input[type=text], .user-comments textarea {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-.user-comments input[type=submit] {
-    background-color: black;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-.user-comments input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-body {
     background-color: antiquewhite;
 }
 
-@media only screen and (max-width: 768px) {
+h1 {
+    color: #333;
+}
 
+.ingredients, .preparation, .comments, .recipe-ingredients, .recipe-preparation, .user-comments {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #666;
+}
+
+.ingredients ul, .preparation ol, .recipe-ingredients ul, .recipe-preparation ol, .user-comments textarea {
+    margin-left: 20px;
+}
+
+/* Bouton stylisé */
+
+.submit-button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+/* Media Queries pour les écrans jusqu'à 768 pixels de large */
+
+@media only screen and (max-width: 768px) {
+    /* Ajoutez des styles spécifiques pour les écrans jusqu'à 768 pixels de large si nécessaire */
 }

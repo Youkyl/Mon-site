@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0 10%;
+    color: #333;
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: #666;
+}
+
+p {
+    line-height: 1.6;
+}
+
+form {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Ajoutez des styles spécifiques pour les écrans jusqu'à 768 pixels de large si nécessaire */
+}
