@@ -1,7 +1,8 @@
 /* Styles généraux */
 
 body {
-    
+    font-family: Arial, sans-serif;
+    padding: 0 10%;
     color: #333;
     background-color: antiquewhite;
 }
