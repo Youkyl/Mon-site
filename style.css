@@ -44,9 +44,9 @@ body {
 }
 
 .f1 {
-    border: 5px solid rebeccapurple; /* Bordure de 2px, solide et de couleur #e8491d */
-    padding: 5px; /* Espace autour du texte à l'intérieur de la bordure */
-    display: inline-block; /* Pour que la bordure s'adapte à la taille du texte */
+    border: 5px solid rebeccapurple; 
+    padding: 5px; 
+    display: inline-block; 
     background-color: burlywood;
 }
 
@@ -68,18 +68,18 @@ header {
 
 /* À propos */
 .à-propos h3 {
-    margin-bottom: 20px; /* Ajuste la marge */
+    margin-bottom: 20px; 
 }
 
 .à-propos img {
-    width: 20%; /* Fait en sorte que les images soient responsives */
+    width: 20%; 
     border-radius: 15px;
 }
 
 /* Article */
 .article h2 {
-    margin-top: 100px; /* Ajuste la marge */
-    margin-bottom: 25px; /* Ajuste la marge */
+    margin-top: 100px;
+    margin-bottom: 25px; 
     border: 5px solid rebeccapurple;
     padding: 10px;
     display: inline-block;
@@ -91,42 +91,41 @@ header {
 }
 
 .article .img_ img {
-     /* Fait en sorte que les images soient responsives */
     border-radius: 5px;
-    margin-bottom: px; /* Ajoute un espace entre les images */
+    margin-bottom: px; 
 }
 
 .article .img_ .img_1    {
-    max-width: 400px; /* Remplacez 800px par la valeur de largeur maximale souhaitée */
+    max-width: 400px; 
 }
 
 .article .img_ .img_2 {
-    max-width: 400px; /* Remplacez 800px par la valeur de largeur maximale souhaitée */
+    max-width: 400px; 
 }
 
 .article .img_ .img_3 {
-    max-width: 400px; /* Remplacez 800px par la valeur de largeur maximale souhaitée */
+    max-width: 400px; 
 }
 
 .article .img_ .img_4 {
-    max-width: 400px; /* Remplacez 800px par la valeur de largeur maximale souhaitée */
+    max-width: 400px; 
 }
 
 .img_ div {
-    margin-bottom: 15px; /* Ajoute un espace entre les Blocs */ 
+    margin-bottom: 15px; 
 }
 
 /* Footer */
 footer {
-    margin-top: 20px; /* Ajuste la marge */
+    margin-top: 20px; 
 
 }
 
 footer .contact {
-    margin: 0 auto; /* Centre le contenu */
+    margin: 0 auto; 
 }
 
-/* Média Queries pour les écrans jusqu'à 768 pixels de large */
+
 @media only screen and (max-width: 768px) {
     .img img {
         width: 150px;
@@ -137,17 +136,17 @@ footer .contact {
     }
 
     .img #img2 {
-        top: 35px; /* Ajuste la position */
-        right: 40px; /* Ajuste la position */
+        top: 35px; 
+        right: 40px; 
     }
 
     .à-propos h3 {
-        margin-bottom: 10px; /* Ajuste la marge */
+        margin-bottom: 10px; 
     }
 
     .article h2 {
-        margin-top: 45px; /* Ajuste la marge */
-        margin-bottom: 10px; /* Ajuste la marge */
+        margin-top: 45px; 
+        margin-bottom: 10px; 
     }
 
     .article .img_ img {
